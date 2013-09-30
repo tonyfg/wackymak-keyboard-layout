@@ -6,12 +6,12 @@ xkb_symbols "wacky-pt"
 	include "us(intl)"
 
 	// Alphanumeric section
-	key <AD01> { [         q,     Q,     atilde,     Atilde ] };
-	key <AD02> { [         w,     W,      aring,      Aring ] };
-	key <AD03> { [         d,     D,        eth,        ETH ] };
-	key <AD04> { [         r,     R, registered, registered ] };
-	key <AD05> { [         f,     F,          f,          F ] };
-	key <AD06> { [         j,     J,          j,          J ] };
+	key <AD01> { [         q,     Q,      aring,     Aring  ] };
+	key <AD02> { [         w,     W,     atilde,     Atilde ] };
+	key <AD03> { [         d,     D,   EuroSign,   EuroSign ] };
+	key <AD04> { [         f,     F,          f,          F ] };
+	key <AD05> { [         j,     J,          j,          J ] };
+	key <AD06> { [         k,     K,         oe,         OE ] };
 	key <AD07> { [         l,     L,          l,          L ] };
 	key <AD08> { [         u,     U,     uacute,     Uacute ] };
 	key <AD09> { [         p,     P,     otilde,     Otilde ] };
@@ -19,7 +19,7 @@ xkb_symbols "wacky-pt"
 
 	key <AC01> { [          a,        A,      aacute,         Aacute ] };
 	key <AC02> { [          s,        S,      agrave,         Agrave ] };
-	key <AC03> { [          h,        H,           h,              H ] };
+	key <AC03> { [          r,        R,  registered,     registered ] };
 	key <AC04> { [          t,        T,       thorn,          THORN ] };
 	key <AC05> { [          g,        G,           g,              G ] };
 	key <AC06> { [          y,        Y,  udiaeresis,     Udiaeresis ] };
@@ -34,7 +34,7 @@ xkb_symbols "wacky-pt"
 	key <AB03> { [ c, C,        ccedilla,        Ccedilla ] };
 	key <AB04> { [ v, V,               v,               V ] };
 	key <AB05> { [ b, B,               b,               B ] };
-	key <AB06> { [ k, K,              oe,              OE ] };
+	key <AB06> { [ h, H,               h,               H ] };
 	key <AB07> { [ m, M,               m,               M ] };
 	// End alphanumeric section
 
