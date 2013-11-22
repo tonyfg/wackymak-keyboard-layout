@@ -6,16 +6,16 @@ xkb_symbols "wackymak"
 	include "us(intl)"
 
 	// Alphanumeric section
-	key <AD01> { [         q,     Q,      aring,     Aring  ] };
-	key <AD02> { [         w,     W,     atilde,     Atilde ] };
-	key <AD03> { [         d,     D,   EuroSign,   EuroSign ] };
-	key <AD04> { [         p,     P, udiaeresis, Udiaeresis ] };
-	key <AD05> { [         k,     K,         oe,         OE ] };
-	key <AD06> { [         j,     J,          j,          J ] };
-	key <AD07> { [         l,     L,          l,          L ] };
-	key <AD08> { [         u,     U,     uacute,     Uacute ] };
-	key <AD09> { [         y,     Y,     otilde,     Otilde ] };
-	key <AD10> { [ semicolon, colon,  paragraph,     degree ] };
+	key <AD01> { [         q,     Q,  masculine, ordfeminine ] };
+	key <AD02> { [         w,     W,     atilde,      Atilde ] };
+	key <AD03> { [         d,     D,   EuroSign,    EuroSign ] };
+	key <AD04> { [         p,     P, udiaeresis,  Udiaeresis ] };
+	key <AD05> { [         k,     K,         oe,          OE ] };
+	key <AD06> { [         j,     J,          j,           J ] };
+	key <AD07> { [         l,     L,          l,           L ] };
+	key <AD08> { [         u,     U,     uacute,      Uacute ] };
+	key <AD09> { [         y,     Y,     otilde,      Otilde ] };
+	key <AD10> { [ semicolon, colon,  paragraph,      degree ] };
 
 	key <AC01> { [          a,        A,      aacute,         Aacute ] };
 	key <AC02> { [          r,        R,      agrave,         Agrave ] };
